@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="FN338" />
+		<event>
+			<string key="Flight" value="FN338" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-05-21T17:00:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-05-21T17:00:00+00:00" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Flight" value="FN338" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-05-21T17:35:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-05-21T17:35:00+00:00" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Flight" value="FN338" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-05-21T17:55:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-05-21T17:55:00+00:00" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Flight" value="FN338" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-05-22T05:55:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-05-22T05:55:00+00:00" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="Flight" value="FN338" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-05-22T07:35:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-05-22T07:35:00+00:00" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="GH2230" />
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-04-27T11:00:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-04-27T11:00:00+00:00" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-27T11:25:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-27T11:25:00+00:00" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Mechanical problem" />
+			<date key="Timestamp" value="2019-04-27T12:15:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Mechanical problem" />
+			<date key="time:timestamp" value="2019-04-27T12:15:00+00:00" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Off boarding" />
+			<date key="Timestamp" value="2019-04-27T12:43:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Off boarding" />
+			<date key="time:timestamp" value="2019-04-27T12:43:00+00:00" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-27T13:30:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-27T13:30:00+00:00" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Mechanical problem" />
+			<date key="Timestamp" value="2019-04-27T13:50:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Mechanical problem" />
+			<date key="time:timestamp" value="2019-04-27T13:50:00+00:00" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Off boarding" />
+			<date key="Timestamp" value="2019-04-27T14:30:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Off boarding" />
+			<date key="time:timestamp" value="2019-04-27T14:30:00+00:00" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="Flight" value="GH2230" />
+			<string key="Activity" value="Flight canceled" />
+			<date key="Timestamp" value="2019-04-27T14:35:00+00:00" />
+			<string key="City" value="Paris" />
+			<string key="concept:name" value="Flight canceled" />
+			<date key="time:timestamp" value="2019-04-27T14:35:00+00:00" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LH2286" />
+		<event>
+			<string key="Flight" value="LH2286" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-06-11T09:37:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-06-11T09:37:00+00:00" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2286" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-06-11T10:05:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-06-11T10:05:00+00:00" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2286" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-06-11T10:25:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-06-11T10:25:00+00:00" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2286" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-06-11T11:57:00+00:00" />
+			<string key="City" value="Brussels" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-06-11T11:57:00+00:00" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2286" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-06-11T12:33:00+00:00" />
+			<string key="City" value="Brussels" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-06-11T12:33:00+00:00" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LH2306" />
+		<event>
+			<string key="Flight" value="LH2306" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-07-20T13:58:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-07-20T13:58:00+00:00" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2306" />
+			<string key="Activity" value="Delay announcement" />
+			<date key="Timestamp" value="2019-07-20T14:20:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Delay announcement" />
+			<date key="time:timestamp" value="2019-07-20T14:20:00+00:00" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2306" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-07-20T14:23:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-07-20T14:23:00+00:00" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2306" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-07-20T15:03:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-07-20T15:03:00+00:00" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="Flight" value="LH2306" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-07-20T16:20:00+00:00" />
+			<string key="City" value="Amsterdam" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-07-20T16:20:00+00:00" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LH458" />
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-04-18T09:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-04-18T09:00:00+00:00" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-18T10:35:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-18T10:35:00+00:00" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Mechanical problem" />
+			<date key="Timestamp" value="2019-04-18T10:55:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Mechanical problem" />
+			<date key="time:timestamp" value="2019-04-18T10:55:00+00:00" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Off boarding" />
+			<date key="Timestamp" value="2019-04-18T11:07:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Off boarding" />
+			<date key="time:timestamp" value="2019-04-18T11:07:00+00:00" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-18T12:13:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-18T12:13:00+00:00" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-04-18T12:51:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-04-18T12:51:00+00:00" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-04-18T21:00:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-04-18T21:00:00+00:00" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="Flight" value="LH458" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-04-18T21:34:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-04-18T21:34:00+00:00" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LH459" />
+		<event>
+			<string key="Flight" value="LH459" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-04-21T17:00:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-04-21T17:00:00+00:00" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Flight" value="LH459" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-21T19:25:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-21T19:25:00+00:00" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Flight" value="LH459" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-04-21T20:15:00+00:00" />
+			<string key="City" value="San Francisco" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-04-21T20:15:00+00:00" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Flight" value="LH459" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-04-22T06:55:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-04-22T06:55:00+00:00" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="Flight" value="LH459" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-04-22T07:35:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-04-22T07:35:00+00:00" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LH655" />
+		<event>
+			<string key="Flight" value="LH655" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-04-26T17:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-04-26T17:00:00+00:00" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="Flight" value="LH655" />
+			<string key="Activity" value="Flight canceled" />
+			<date key="Timestamp" value="2019-04-26T19:25:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Flight canceled" />
+			<date key="time:timestamp" value="2019-04-26T19:25:00+00:00" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LN200" />
+		<event>
+			<string key="Flight" value="LN200" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-04-15T09:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-04-15T09:00:00+00:00" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Flight" value="LN200" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-15T10:10:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-15T10:10:00+00:00" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Flight" value="LN200" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-04-15T10:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-04-15T10:30:00+00:00" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Flight" value="LN200" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-04-15T12:20:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-04-15T12:20:00+00:00" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="Flight" value="LN200" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-04-15T13:00:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-04-15T13:00:00+00:00" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="LN205" />
+		<event>
+			<string key="Flight" value="LN205" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-05-15T09:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-05-15T09:00:00+00:00" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Flight" value="LN205" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-05-15T10:10:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-05-15T10:10:00+00:00" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Flight" value="LN205" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-05-15T10:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-05-15T10:30:00+00:00" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Flight" value="LN205" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-05-15T12:20:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-05-15T12:20:00+00:00" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="Flight" value="LN205" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-05-15T13:00:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-05-15T13:00:00+00:00" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="MU220" />
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-02-17T16:00:00+00:00" />
+			<string key="City" value="Pristina" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-02-17T16:00:00+00:00" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Delay announcement" />
+			<date key="Timestamp" value="2019-02-17T16:35:00+00:00" />
+			<string key="City" value="Pristina" />
+			<string key="concept:name" value="Delay announcement" />
+			<date key="time:timestamp" value="2019-02-17T16:35:00+00:00" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-02-17T17:20:00+00:00" />
+			<string key="City" value="Pristina" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-02-17T17:20:00+00:00" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-02-17T18:00:00+00:00" />
+			<string key="City" value="Pristina" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-02-17T18:00:00+00:00" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-02-17T20:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-02-17T20:00:00+00:00" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Mechanical problem" />
+			<date key="Timestamp" value="2019-02-17T20:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Mechanical problem" />
+			<date key="time:timestamp" value="2019-02-17T20:30:00+00:00" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="Flight" value="MU220" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-02-17T21:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-02-17T21:30:00+00:00" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="MU330" />
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-04-17T16:00:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-04-17T16:00:00+00:00" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Delay announcement" />
+			<date key="Timestamp" value="2019-04-17T16:35:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Delay announcement" />
+			<date key="time:timestamp" value="2019-04-17T16:35:00+00:00" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-04-17T17:20:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-04-17T17:20:00+00:00" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-04-17T18:00:00+00:00" />
+			<string key="City" value="London" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-04-17T18:00:00+00:00" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-04-17T20:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-04-17T20:00:00+00:00" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Mechanical problem" />
+			<date key="Timestamp" value="2019-04-17T20:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Mechanical problem" />
+			<date key="time:timestamp" value="2019-04-17T20:30:00+00:00" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="Flight" value="MU330" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-04-17T21:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-04-17T21:30:00+00:00" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="PR120" />
+		<event>
+			<string key="Flight" value="PR120" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-02-12T10:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-02-12T10:00:00+00:00" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="Flight" value="PR120" />
+			<string key="Activity" value="Missed my flight" />
+			<date key="Timestamp" value="2019-02-12T11:32:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Missed my flight" />
+			<date key="time:timestamp" value="2019-02-12T11:32:00+00:00" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="PR121" />
+		<event>
+			<string key="Flight" value="PR121" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-02-13T12:43:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-02-13T12:43:00+00:00" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Flight" value="PR121" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-02-13T13:30:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-02-13T13:30:00+00:00" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Flight" value="PR121" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-02-13T14:20:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-02-13T14:20:00+00:00" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Flight" value="PR121" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-02-13T15:40:00+00:00" />
+			<string key="City" value="Pristina" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-02-13T15:40:00+00:00" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="Flight" value="PR121" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-02-13T16:15:00+00:00" />
+			<string key="City" value="Pristina" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-02-13T16:15:00+00:00" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TR320" />
+		<event>
+			<string key="Flight" value="TR320" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-01-12T12:01:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-01-12T12:01:00+00:00" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Flight" value="TR320" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-01-12T12:45:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-01-12T12:45:00+00:00" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Flight" value="TR320" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-01-12T13:03:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-01-12T13:03:00+00:00" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Flight" value="TR320" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-01-12T22:05:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-01-12T22:05:00+00:00" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="Flight" value="TR320" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-01-12T23:00:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-01-12T23:00:00+00:00" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TR321" />
+		<event>
+			<string key="Flight" value="TR321" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-07-01T11:43:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-07-01T11:43:00+00:00" />
+			<int key="@@index" value="74" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Flight" value="TR321" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-07-01T12:51:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-07-01T12:51:00+00:00" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Flight" value="TR321" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-07-01T13:15:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-07-01T13:15:00+00:00" />
+			<int key="@@index" value="76" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Flight" value="TR321" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-07-01T21:54:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-07-01T21:54:00+00:00" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="Flight" value="TR321" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-07-01T22:38:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-07-01T22:38:00+00:00" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TR520" />
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-01-22T08:15:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-01-22T08:15:00+00:00" />
+			<int key="@@index" value="79" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Delay announcement" />
+			<date key="Timestamp" value="2019-01-22T09:01:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Delay announcement" />
+			<date key="time:timestamp" value="2019-01-22T09:01:00+00:00" />
+			<int key="@@index" value="80" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-01-22T14:00:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-01-22T14:00:00+00:00" />
+			<int key="@@index" value="81" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Mechanical problem" />
+			<date key="Timestamp" value="2019-01-22T14:30:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Mechanical problem" />
+			<date key="time:timestamp" value="2019-01-22T14:30:00+00:00" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-01-22T16:30:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-01-22T16:30:00+00:00" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-01-23T01:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-01-23T01:00:00+00:00" />
+			<int key="@@index" value="84" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="Flight" value="TR520" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-01-23T01:45:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-01-23T01:45:00+00:00" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="TR521" />
+		<event>
+			<string key="Flight" value="TR521" />
+			<string key="Activity" value="Landing" />
+			<date key="Timestamp" value="2019-07-16T01:00:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Landing" />
+			<date key="time:timestamp" value="2019-07-16T01:00:00+00:00" />
+			<int key="@@index" value="86" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Flight" value="TR521" />
+			<string key="Activity" value="Baggage claim" />
+			<date key="Timestamp" value="2019-07-16T01:23:00+00:00" />
+			<string key="City" value="Munich" />
+			<string key="concept:name" value="Baggage claim" />
+			<date key="time:timestamp" value="2019-07-16T01:23:00+00:00" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Flight" value="TR521" />
+			<string key="Activity" value="Check-in" />
+			<date key="Timestamp" value="2019-07-16T08:15:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Check-in" />
+			<date key="time:timestamp" value="2019-07-16T08:15:00+00:00" />
+			<int key="@@index" value="88" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Flight" value="TR521" />
+			<string key="Activity" value="Delay announcement" />
+			<date key="Timestamp" value="2019-07-16T09:01:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Delay announcement" />
+			<date key="time:timestamp" value="2019-07-16T09:01:00+00:00" />
+			<int key="@@index" value="89" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Flight" value="TR521" />
+			<string key="Activity" value="Boarding" />
+			<date key="Timestamp" value="2019-07-16T14:00:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Boarding" />
+			<date key="time:timestamp" value="2019-07-16T14:00:00+00:00" />
+			<int key="@@index" value="90" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="Flight" value="TR521" />
+			<string key="Activity" value="Take off" />
+			<date key="Timestamp" value="2019-07-16T16:30:00+00:00" />
+			<string key="City" value="New York" />
+			<string key="concept:name" value="Take off" />
+			<date key="time:timestamp" value="2019-07-16T16:30:00+00:00" />
+			<int key="@@index" value="91" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+</log>
